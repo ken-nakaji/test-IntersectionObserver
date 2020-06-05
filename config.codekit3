@@ -9,17 +9,25 @@
 	],
 "creatorBuild": "32137",
 "files": {
-	"/dist": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/.gitignore",
+		"oF": 0
+		},
+	"/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "/dist/dist",
+		"oAP": "/docs/docs",
 		"oF": 0
 		},
 	"/src/images/food_spaghetti_pescatora.png": {
 		"ft": 32768,
 		"iS": 391178,
 		"oA": 0,
-		"oAP": "/dist/images/food_spaghetti_pescatora.png",
+		"oAP": "/docs/images/food_spaghetti_pescatora.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -30,7 +38,7 @@
 		"ft": 32768,
 		"iS": 198250,
 		"oA": 0,
-		"oAP": "/dist/images/job_teacher_man.png",
+		"oAP": "/docs/images/job_teacher_man.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -41,7 +49,7 @@
 		"ft": 32768,
 		"iS": 221951,
 		"oA": 0,
-		"oAP": "/dist/images/suisougaku_flute.png",
+		"oAP": "/docs/images/suisougaku_flute.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -54,7 +62,7 @@
 		"ft": 512,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/index.html",
+		"oAP": "/docs/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -64,7 +72,7 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/script-min.js",
+		"oAP": "/docs/script-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -77,7 +85,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dist/scss/_com.css",
+		"oAP": "/docs/scss/_com.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -90,7 +98,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dist/scss/_scroll-show.css",
+		"oAP": "/docs/scss/_scroll-show.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -103,7 +111,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dist/style.css",
+		"oAP": "/docs/style.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -115,7 +123,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 613014617.60747898,
-	"displayValue": "IntersectionObserver",
+	"displayValue": "test-IntersectionObserver",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0
@@ -413,7 +421,7 @@
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
-	"buildFolderName": "dist",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2518,7 +2526,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": "/dist"
+	"websiteRelativeRoot": "/docs"
 	},
 "settingsFileVersion": "3"
 }
