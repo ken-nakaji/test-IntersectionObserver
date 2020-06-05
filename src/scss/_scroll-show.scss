@@ -1,0 +1,108 @@
+/* スライド部分 */
+.scroll-show__slide {
+  display: flex;
+  justify-content: flex-end;
+
+  &:first-child {
+    .scroll-show__image-container {
+      opacity: 1 !important;
+    }
+  }
+  &:nth-child(1) {
+    .scroll-show__image-container {
+      background-color: #ffe0f3;
+    }
+  }
+  &:nth-child(2) {
+    .scroll-show__image-container {
+      background-color: #e0ffe2;
+    }
+  }
+  &:nth-child(3) {
+    .scroll-show__image-container {
+      background-color: #e3cbff;
+    }
+  }
+}
+
+/* 画像 */
+.scroll-show__image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  opacity: 0;
+  overflow: hidden;
+  background-color: #efefef;
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  &:nth-child(1) {
+    background-color: #d4f5ff;
+  }
+  &:nth-child(2) {
+    background-color: #ffe0ff;
+  }
+  &:nth-child(3) {
+    background-color: #e0ffe2;
+  }
+
+  &.viewport-fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  &.show {
+    opacity: 1;
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.scroll-show__image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 71vh;
+}
+.scroll-show__image-caption {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* テキスト */
+.scroll-show__text-container {
+  width: 50%;
+  &:not(:last-child) {
+    padding-bottom: 24px;
+  }
+}
+.scroll-show__text-column {
+  padding: 36px;
+}
+.scroll-show__title {
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  margin: 0 0 24px;
+}
+.rich-text {
+  > h2 {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 0 0 12px;
+    padding-bottom: 12px;
+  }
+  > p {
+    font-size: 16px;
+    line-height: 32px;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+  &:not(:last-child) {
+    margin-bottom: 36px;
+  }
+}
