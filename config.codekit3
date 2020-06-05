@@ -23,6 +23,36 @@
 		"oAP": "/docs/docs",
 		"oF": 0
 		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/repository-open-graph-template.png": {
+		"ft": 32768,
+		"iS": 486933,
+		"oA": 0,
+		"oAP": "/docs/repository-open-graph-template.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/images/food_spaghetti_pescatora.png": {
 		"ft": 32768,
 		"iS": 391178,
